@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Supermercado>
+  <nombre>nombre supermercado</nombre>
+  <productos>
+    <nombre>nombre producto</nombre>
+    <oferta>false</oferta>
+    <habitual>false</habitual>
+    <unidades>2</unidades>
+    <precioVta>3.27</precioVta>
+    <comprado>false</comprado>
+    <periodo_de_vigencia>21/12/2023</periodo_de_vigencia>
+    <unidad_de_medida>ml</unidad_de_medida>
+  </productos>
+  <direccion>Carrefour Express, C. de Pastora Imperio, 1, 28036 Madrid</direccion>
+  <geolocalizacion>40.484872597755, -3.6735837282346555</geolocalizacion>
+</Supermercado>

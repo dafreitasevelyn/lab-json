@@ -1,0 +1,21 @@
+{
+    "Supermercado": 
+    {
+        "nombre":"nombre supermercado",
+        "productos": [
+            {
+                "nombre": "nombre producto",
+                "oferta":false,
+                "periodo de vigencia": "21/12/2023",
+                "habitual":false,
+                "unidades":2,
+                "unidad de medida":"ml",
+                "precioVta": 3.27,
+                "comprado":false           
+            }
+        ],
+        "direccion": "Carrefour Express, C. de Pastora Imperio, 1, 28036 Madrid",
+        "geolocalizacion":"40.484872597755, -3.6735837282346555"
+    }
+
+}
