@@ -1,21 +1,77 @@
 {
-    "Supermercado": 
-    {
-        "nombre":"nombre supermercado",
-        "productos": [
-            {
-                "nombre": "nombre producto",
-                "oferta":false,
-                "periodo de vigencia": "21/12/2023",
-                "habitual":false,
-                "unidades":2,
-                "unidad de medida":"ml",
-                "precioVta": 3.27,
-                "comprado":false           
-            }
-        ],
-        "direccion": "Carrefour Express, C. de Pastora Imperio, 1, 28036 Madrid",
-        "geolocalizacion":"40.484872597755, -3.6735837282346555"
-    }
+    "Lista de compras":[
+        {
+            "productos": [
+                {
+                    "nombre": "bacon",
+                    "unidades":25,
+                    "unidad de medida":"gr",
+                    "precioVta": 2.14,
+                    "oferta":false,
+                    "perecedero": true,
+                    "habitual":false,
+                    "comprado":false,
+                    "supermercado":[
+                        {
+                            "establecimiento":"Carrefour",
+                            "direccion": "Carrefour Express, C. de Pastora Imperio, 1, 28036 Madrid",
+                            "geolocalizacion":"40.484872597755, -3.6735837282346555"
+                        }
+                    ]          
+                },
+                {
+                    "nombre": "huevos",
+                    "unidades":1,
+                    "unidad de medida":"docena",
+                    "precioVta": 2.88,
+                    "oferta":false,
+                    "perecedero": true,
+                    "habitual":true,
+                    "comprado":false,
+                    "supermercado":[
+                        {
+                            "establecimiento":"Mercadona",
+                            "direccion": "Mercadona, C. de Telémaco, 3, 28027 Madrid",
+                            "geolocalizacion":"40.44858484385406, -3.6461654458549493"
+                        }
+                    ]          
+                },
+                {
+                    "nombre": "queso parmesano",
+                    "unidades":100,
+                    "unidad de medida":"gr",
+                    "precioVta": 1.50,
+                    "oferta":false,
+                    "perecedero": true,
+                    "habitual":true,
+                    "comprado":false,
+                    "supermercado":[
+                        {
+                            "establecimiento":"Supermercados Dia",
+                            "direccion": "Supermercados Dia, C. de Martínez Villergas, 19, 28027 Madrid",
+                            "geolocalizacion":"40.4425529289085, -3.654309258580802"
+                        }
+                    ]          
+                },
+                {
+                    "nombre": "spaghetti",
+                    "unidades":500,
+                    "unidad de medida":"gr",
+                    "precioVta": 1.20,
+                    "oferta":false,
+                    "perecedero": true,
+                    "habitual":true,
+                    "comprado":false,
+                    "supermercado":[
+                        {
+                            "establecimiento":"Mercadona",
+                            "direccion": "Mercadona, C. de Telémaco, 3, 28027 Madrid",
+                            "geolocalizacion":"40.44858484385406, -3.6461654458549493"
+                        }
+                    ]          
+                }
 
+            ]
+        }
+    ]
 }
