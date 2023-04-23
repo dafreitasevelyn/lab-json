@@ -1,16 +1,63 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<Supermercado>
-  <nombre>nombre supermercado</nombre>
+<?xml version="1.0" encoding="UTF-8"?>
+<Lista__EA__de__EA__compras array="true">
   <productos>
-    <nombre>nombre producto</nombre>
-    <oferta>false</oferta>
-    <habitual>false</habitual>
-    <unidades>2</unidades>
-    <precioVta>3.27</precioVta>
-    <comprado>false</comprado>
-    <periodo_de_vigencia>21/12/2023</periodo_de_vigencia>
-    <unidad_de_medida>ml</unidad_de_medida>
+    <nombre>bacon</nombre>
+    <unidades number="true">25</unidades>
+    <unidad__EA__de__EA__medida>gr</unidad__EA__de__EA__medida>
+    <precioVta number="true">2.14</precioVta>
+    <oferta boolean="true">false</oferta>
+    <perecedero boolean="true">true</perecedero>
+    <habitual boolean="true">false</habitual>
+    <comprado boolean="true">false</comprado>
+    <supermercado array="true">
+      <establecimiento>Carrefour</establecimiento>
+      <direccion>Carrefour Express, C. de Pastora Imperio, 1, 28036 Madrid</direccion>
+      <geolocalizacion>40.484872597755, -3.6735837282346555</geolocalizacion>
+    </supermercado>
   </productos>
-  <direccion>Carrefour Express, C. de Pastora Imperio, 1, 28036 Madrid</direccion>
-  <geolocalizacion>40.484872597755, -3.6735837282346555</geolocalizacion>
-</Supermercado>
+  <productos>
+    <nombre>huevos</nombre>
+    <unidades number="true">1</unidades>
+    <unidad__EA__de__EA__medida>docena</unidad__EA__de__EA__medida>
+    <precioVta number="true">2.88</precioVta>
+    <oferta boolean="true">false</oferta>
+    <perecedero boolean="true">true</perecedero>
+    <habitual boolean="true">true</habitual>
+    <comprado boolean="true">false</comprado>
+    <supermercado array="true">
+      <establecimiento>Mercadona</establecimiento>
+      <direccion>Mercadona, C. de Telémaco, 3, 28027 Madrid</direccion>
+      <geolocalizacion>40.44858484385406, -3.6461654458549493</geolocalizacion>
+    </supermercado>
+  </productos>
+  <productos>
+    <nombre>queso parmesano</nombre>
+    <unidades number="true">100</unidades>
+    <unidad__EA__de__EA__medida>gr</unidad__EA__de__EA__medida>
+    <precioVta number="true">1.50</precioVta>
+    <oferta boolean="true">false</oferta>
+    <perecedero boolean="true">true</perecedero>
+    <habitual boolean="true">true</habitual>
+    <comprado boolean="true">false</comprado>
+    <supermercado array="true">
+      <establecimiento>Supermercados Dia</establecimiento>
+      <direccion>Supermercados Dia, C. de Martínez Villergas, 19, 28027 Madrid</direccion>
+      <geolocalizacion>40.4425529289085, -3.654309258580802</geolocalizacion>
+    </supermercado>
+  </productos>
+  <productos>
+    <nombre>spaghetti</nombre>
+    <unidades number="true">500</unidades>
+    <unidad__EA__de__EA__medida>gr</unidad__EA__de__EA__medida>
+    <precioVta number="true">1.20</precioVta>
+    <oferta boolean="true">false</oferta>
+    <perecedero boolean="true">true</perecedero>
+    <habitual boolean="true">true</habitual>
+    <comprado boolean="true">false</comprado>
+    <supermercado array="true">
+      <establecimiento>Mercadona</establecimiento>
+      <direccion>Mercadona, C. de Telémaco, 3, 28027 Madrid</direccion>
+      <geolocalizacion>40.44858484385406, -3.6461654458549493</geolocalizacion>
+    </supermercado>
+  </productos>
+</Lista__EA__de__EA__compras>
